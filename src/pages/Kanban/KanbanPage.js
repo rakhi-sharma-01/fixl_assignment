@@ -24,7 +24,6 @@ import {
   ListItem,
   ListItemText,
   ListItemAvatar,
-  Divider,
   Avatar
 } from '@mui/material';
 import {
@@ -32,8 +31,6 @@ import {
   Edit,
   Delete,
   Person,
-  Assignment,
-  CheckCircle,
   ArrowBack
 } from '@mui/icons-material';
 import { createTask, updateTask, deleteTask, addComment } from '../../store/slices/taskSlice';

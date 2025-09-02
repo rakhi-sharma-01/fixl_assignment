@@ -130,10 +130,10 @@ const ChatPage = () => {
   };
 
   // Clear search queries with useCallback to prevent re-renders
-  const clearSearch = useCallback(() => {
-    setSearchQuery('');
-    setMessageSearchQuery('');
-  }, []);
+  // const clearSearch = useCallback(() => {
+  //   setSearchQuery('');
+  //   setMessageSearchQuery('');
+  // }, []);
 
   // Debounced search queries for better performance
   const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
